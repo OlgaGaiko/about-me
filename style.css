@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding: 70px 0;
+}
+
+html {
+    font-family: 'Raleway';
+}
+
+.baner {
+    background-color: aliceblue;
+}
+
+.baner h1 {
+    font-size: 27px;
+    text-align: center;
+    color: #D6A2F1;
+}
+
+.baner .title {
+    font-size: 23px;
+    margin: 20px auto 50px;
+    text-align: center;
+    color: #D6A2F1;
+}
+
+.photo {
+    width: 400px;
+    display: block;
+    margin: 10px auto 20px;
+}
+
+.about-me {
+    background-color: #F9F2FD;
+}
+
+.about-me p {
+    font-size: 20px;
+    text-align: center;
+    padding: 0 400px;
+}
+
+.contacts {
+    background-color: #F7FDF2;
+}
+
+.contacts h3 {
+    font-size: 20px;
+    margin: 0 auto 30px;
+    text-align: center;
+    color: #EBCCFA;
+}
+
+.socials {
+    display: block;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+footer i {
+    font-size: 28px;
+    margin-right: 40px;
+    color: #D27CFD;
+    transition: all .5s liner 1s;
+}
+
+footer i:not(:last-of-type) {
+    margin-right: 40px;
+}
+
+footer i:hover {
+    transform: scale(1.5);
+}
